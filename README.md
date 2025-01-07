@@ -4,9 +4,6 @@ import random
 import pandas as pd
 
 
-
-
-
 def production_function(efficiency, cap, water_in_reservoir, fixed_cost, days_in_month, min_price=-5, max_price=30, nightMWHPmod=.1, dayMWHPmod=20):
     monthly_revenue = 0
     daily_data = []
